@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 import "../styles.css"
 
 const SignUpForm = ({ setIsAuthenticated, setUser }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [isLoading, setIsLoading] = useState(false);
   const [confirmPassword, setConfirmPassword] = useState("");
   const [signupData, setSignupData] = useState({
     name: "",
